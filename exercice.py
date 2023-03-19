@@ -1,3 +1,12 @@
+try:
+    import colorama
+except:
+    import os
+    os.system("pip install colorama")
+
+
+
+
 from colorama import * 
 from colorama import init as colorama_init
 from random import randint, choice
